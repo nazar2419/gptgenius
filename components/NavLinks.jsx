@@ -9,7 +9,7 @@ const links = [
 
 const NavLinks = () => {
   return (
-    <ui className="menu text-base-content">
+    <ul className="menu text-base-content">
       {links.map((link) => {
         return (
           <li key={link.href}>
@@ -19,7 +19,7 @@ const NavLinks = () => {
           </li>
         );
       })}
-    </ui>
+    </ul>
   );
 };
 export default NavLinks;
